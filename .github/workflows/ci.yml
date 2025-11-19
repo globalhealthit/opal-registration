@@ -23,7 +23,7 @@ jobs:
   check-dependencies:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v5.0.0
         with:
           persist-credentials: false
       # Use the build-setup action to test dependency installation
@@ -32,12 +32,11 @@ jobs:
         with:
           # No actual config is required, since this job just checks that all dependencies can be installed
           CONFIG: "{}"
-          NPMRC_FILE: ${{ secrets.NPMRC_FILE }}
 
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v5.0.0
         with:
           persist-credentials: false
       - uses: mschoettle/pre-commit-action@v4.2.3

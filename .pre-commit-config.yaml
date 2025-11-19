@@ -4,7 +4,7 @@
 
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v5.0.0
+  rev: v6.0.0
   hooks:
     - id: check-added-large-files
     - id: check-merge-conflict
@@ -17,23 +17,23 @@ repos:
     - id: trailing-whitespace
 
 - repo: https://github.com/fsfe/reuse-tool
-  rev: v5.0.2
+  rev: v5.1.1
   hooks:
     - id: reuse-lint-file
 
 - repo: https://github.com/crate-ci/typos
-  rev: v1.33.1
+  rev: v1.37.1
   hooks:
     - id: typos
 
 # zizmor detects security vulnerabilities in GitHub Actions workflows.
 - repo: https://github.com/woodruffw/zizmor-pre-commit
-  rev: v1.7.0
+  rev: v1.14.2
   hooks:
     - id: zizmor
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.33.0
+  rev: 0.34.0
   hooks:
     - id: check-github-workflows
       args: ["--verbose"]
