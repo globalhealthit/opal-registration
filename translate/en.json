@@ -18,10 +18,10 @@
   "HEADER": {
     "ABOUT": "ABOUT",
     "LANGUAGE": "Français",
-    "PAGETITLE": "Opal User Registration"
+    "PAGETITLE": "MyCareX User Registration"
   },
   "FOOTER": {
-    "COPYRIGHT": "Copyright © Opal Health Informatics Group, All rights reserved"
+    "COPYRIGHT": "Copyright © Global Health Information Technology, All rights reserved"
   },
   "FORM": {
     "SEARCH": "Identity",
@@ -44,18 +44,18 @@
     "LOADINGMESSAGE": "We are processing your request. Please do not refresh this page."
   },
   "HOSPITALS": {
-    "DEMO": "Opal Demo 1 & 2",
+    "DEMO": "MyCareX Demo 1 & 2",
     "NEURO": "The Neuro (Montreal Neurological Institute-Hospital)"
   },
   "WELCOME": {
-    "INSTRUCTION": "Opal is currently available for patients at the following hospitals. Please refer to each clinic's guidelines below on how to register for an Opal account.",
-    "STEPS_DEMO": "Opal Demo 1 & 2 are currently used for demonstration purposes. If you have been directed to use an Opal Demo site for login, please refer to the documentation sent to you for instructions on how to register for additional accounts.",
+    "INSTRUCTION": "MyCareX is currently available for patients at the following hospitals. Please refer to each clinic's guidelines below on how to register for a MyCareX account.",
+    "STEPS_DEMO": "MyCareX Demo 1 & 2 are currently used for demonstration purposes. If you have been directed to use a MyCareX Demo site for login, please refer to the documentation sent to you for instructions on how to register for additional accounts.",
     "STEPS_NEURO": "We are currently recruiting a small number of patients for registration by direct request. More information will be provided when registration is made widely available. Thank you for your understanding."
   },
   "SEARCH": {
     "STEPS": "Step 1 of 5: ",
     "TITLE": "Confirm Your Identity",
-    "INSTRUCTION": "To register for Opal, you must have obtained a registration code from a participating hospital. If you have a registration code, please enter it here along with your RAMQ number or your MRN to confirm your identity. Find out how to",
+    "INSTRUCTION": "To register for MyCareX, you must have obtained a registration code from a participating hospital. If you have a registration code, please enter it here along with your RAMQ number or your MRN to confirm your identity. Find out how to",
     "INSTRUCTION_LINK": "obtain a registration code",
     "FIELDNAMES": {
       "PATIENTID": "Patient Identification Number",
@@ -72,7 +72,7 @@
   "LOGIN": {
     "STEPS": "Step 2b of 5: ",
     "TITLE": "Log In",
-    "INSTRUCTION": "To continue, please log in to your existing Opal account",
+    "INSTRUCTION": "To continue, please log in to your existing MyCareX account",
     "INPUT": {
       "EMAIL": "Email",
       "PASSWORD": "Password"
@@ -88,7 +88,7 @@
     "TITLE": "Create Security Questions",
     "INSTRUCTION_START": "Please note that certain data (such as answers to security questions) are specific to the hospital and only stored within the hospital. To access the data of ",
     "INSTRUCTION_MID": " at ",
-    "INSTRUCTION_END": " with your existing Opal account, please fill out the form below.",
+    "INSTRUCTION_END": " with your existing MyCareX account, please fill out the form below.",
     "FIELDNAMES": {
       "LOGINAS": "Logged in as ",
       "PHONE": "Phone Number",
@@ -105,7 +105,7 @@
   "VERIFICATION": {
     "STEPS": "Step 2b of 5: ",
     "TITLE": "Email Verification",
-    "INSTRUCTION": "In order to create a new Opal account you need to first verify your email address.",
+    "INSTRUCTION": "In order to create a new MyCareX account you need to first verify your email address.",
     "SEND": {
       "TITLE": "Enter Email Address",
       "INSTRUCTION": "Please provide your email address. We will then send you a verification code to your email address to verify that it is yours.",
@@ -117,7 +117,7 @@
     "VERIFY": {
       "TITLE": "Verify Email Address",
       "INSTRUCTION_START": "We sent you a verification code to ",
-      "INSTRUCTION_END": " to verify that it is yours. Please type it in below to continue creating your Opal Account.",
+      "INSTRUCTION_END": " to verify that it is yours. Please type it in below to continue creating your MyCareX Account.",
       "CODE": "Verification Code",
       "VERIFY": "Verify Email",
       "RESEND": "Resend Verification code",
@@ -127,14 +127,14 @@
   },
   "ACCOUNT": {
     "STEPS": "Step 2 of 5: ",
-    "TITLE": "Create or Log In to Opal Account",
+    "TITLE": "Create or Log In to MyCareX Account",
     "INSTRUCTION": {
-      "EXISTS": "If you already have an existing Opal account, you can use this account to access the data of ",
-      "CREATE": "Otherwise, you need to create a new Opal account."
+      "EXISTS": "If you already have an existing MyCareX account, you can use this account to access the data of ",
+      "CREATE": "Otherwise, you need to create a new MyCareX account."
     },
     "OPTION": {
-      "EXISTS": "I already have an Opal account",
-      "CREATE": "I don't have an Opal account"
+      "EXISTS": "I already have a MyCareX account",
+      "CREATE": "I don't have a MyCareX account"
     }
   },
   "PATIENT": {
@@ -143,8 +143,8 @@
   },
   "SECURE": {
     "STEPS": "Step 2c of 5: ",
-    "TITLE": "Create Your Opal Account",
-    "INSTRUCTION": "Please complete the form below to create your Opal account. All fields are required.",
+    "TITLE": "Create Your MyCareX Account",
+    "INSTRUCTION": "Please complete the form below to create your MyCareX account. All fields are required.",
     "FIELDNAMES": {
       "EMAIL": "Email Address",
       "CONFIRMEMAIL": "Confirm Email Address",
@@ -193,7 +193,7 @@
     "TITLE": "Your Data Access",
     "INSTRUCTION1": "In order to access the medical data of ",
     "INSTRUCTION2": " at ",
-    "INSTRUCTION3": " using Opal, and the medical data of any patient(s) you request access to in the future, at this institution, you must give your consent using the form below.",
+    "INSTRUCTION3": " using MyCareX, and the medical data of any patient(s) you request access to in the future, at this institution, you must give your consent using the form below.",
     "FIELDNAMES": {
       "ACCESSLEVEL": "Data Access Level",
       "ACCESSLEVELINSTRUCTION1": "The following data are generally available (pending availability at ",
@@ -202,7 +202,7 @@
       "LANGUAGEDROPDOWNDEAFULT": "--- Select a language ---",
       "AUTHORIZETRANSMISSION": "Authorization",
       "AUTHORIZETRANSMISSIONCHECKBOXTEXT_START": "I authorize the secure transmission of the medical data of ",
-      "AUTHORIZETRANSMISSIONCHECKBOXTEXT_END": " to my Opal app."
+      "AUTHORIZETRANSMISSIONCHECKBOXTEXT_END": " to my MyCareX app."
     },
     "FIELDERRORMESSAGES": {
       "LANGUAGEREQUIRED": "Please select your preferred language.",
@@ -226,19 +226,19 @@
   "SUCCESS": {
     "STEPS": "Step 5 of 5: ",
     "TITLE": "Registration Successful",
-    "INSTRUCTION": "Your Opal account is now ready. You will receive a confirmation email soon.",
-    "THANKYOUMESSAGE": "Thank you for registering for Opal!",
-    "DOWNLOADAPP": "If you haven't done so already, please download the Opal app from the iOS App Store or Google Play Store and login to access your medical data.",
-    "PROCESS": "If you are on a tablet or smartphone, you may download Opal immediately using the links below. Otherwise, you may click on the links provided in your confirmation email from your mobile device.",
+    "INSTRUCTION": "Your MyCareX account is now ready. You will receive a confirmation email soon.",
+    "THANKYOUMESSAGE": "Thank you for registering for MyCareX!",
+    "DOWNLOADAPP": "If you haven't done so already, please download the MyCareX app from the iOS App Store or Google Play Store and login to access your medical data.",
+    "PROCESS": "If you are on a tablet or smartphone, you may download MyCareX immediately using the links below. Otherwise, you may click on the links provided in your confirmation email from your mobile device.",
     "APPSTORELOGO": "images/logos/AppStore_EN.svg",
     "PLAYSTORELOGO": "images/logos/PlayStore_EN.png",
     "NOTIFICATION1": "Access to the data of ",
     "NOTIFICATION2": " is subject to confirmation by Medical Records."
   },
   "TOOLTIP": {
-    "EMAILINSTRUCTION": "Your email address will be used as your username when accessing your Opal account.",
+    "EMAILINSTRUCTION": "Your email address will be used as your username when accessing your MyCareX account.",
     "PASSWORDFORMAT": "Your password should be at least 10 characters long and should contain at least one number, one capital letter, one lower-case letter and one special character.",
-    "REGISTRATIONCODE": "Your registration code is a 12-digit code provided by your clinical team at a participating Quebec healthcare institution.",
+    "REGISTRATIONCODE": "Your registration code is a 12-digit code provided by your clinical team at a participating healthcare institution.",
     "PATIENTID_TITLE1": "Enter the patient's MRN or RAMQ number. The MRN is found on the hospital card. The RAMQ number is found on the provincial health care card.",
     "PATIENTID_TITLE2": " or ",
     "PATIENTID_TITLE3": " number",
@@ -254,7 +254,7 @@
       "DESCRIPTION": "Something went wrong; please try again. If the problem persists, please contact the institution at which you obtained the registration code."
     },
     "EXISTINGEMAILERROR": {
-      "DESCRIPTION": "This email address is already registered for an Opal account. To use this account to continue your registration, please enter your email address along with your existing Opal password. If you have any difficulty entering your password, it can be reset in the Opal app by going to \"Sign In\" and selecting \"Forgot Password\"."
+      "DESCRIPTION": "This email address is already registered for a MyCareX account. To use this account to continue your registration, please enter your email address along with your existing MyCareX password. If you have any difficulty entering your password, it can be reset in the MyCareX app by going to \"Sign In\" and selecting \"Forgot Password\"."
     },
     "SHARED": {
       "MODALTITLE": "Something Went Wrong",

@@ -47,7 +47,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
             <div ng-show="verificationForm.email.$dirty && verificationForm.email.$invalid">
                 <small class="text-danger font-weight-bold">{{'VERIFICATION.SEND.INVALID_EMAIL' | translate}}</small>
             </div>
-            <button type="button" class="btn btn-secondary mt-3 mr-3 px-3"
+            <button type="button" class="btn btn-color mt-3 mr-3 px-3"
                     ng-click="vm.checkEmailAndSendVerificationCode()"
                     ng-disabled="verificationForm.email.$dirty && verificationForm.email.$invalid || verificationForm.email.$error.required">
                 {{'VERIFICATION.SEND.SENDCODE' | translate}}
@@ -72,11 +72,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later
             <!-- TODO consider replacing maxlength with a regex -->
             <input type="number" name="code" maxlength="6" pattern="\d*" numeric-format name="code" ng-model="vm.inputCode" class="form-control mr-3 px-3" ng-change="vm.resetCodeValidity()"
                    class="verification-code">
-            <button type="button" class="btn btn-secondary mt-3 mr-3 px-3"
+            <button type="button" class="btn btn-color mt-3 mr-3 px-3"
                     ng-click="vm.checkVerificationCode()">
                 {{'VERIFICATION.VERIFY.VERIFY' | translate}}
             </button>
-            <button type="button" class="btn btn-secondary mt-3 mr-3 px-3"
+            <button type="button" class="btn btn-color mt-3 mr-3 px-3"
                     ng-click="vm.resendVerificationCode()" id="resend_btn">
                 <span id="count_down"></span> &nbsp {{'VERIFICATION.VERIFY.RESEND' | translate}}
             </button>
@@ -95,10 +95,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <!--Navigation button-->
     <div class="row">
         <div class="form-group col-md-12 col-xs-12 d-flex justify-content-center mt-2 mt-md-4">
-            <button type="reset" class="btn btn-secondary text-white mr-2 px-3 px-md-5" ui-sref="form.account" tabindex="11">
+            <button type="reset" class="btn btn-color text-white mr-2 px-3 px-md-5" ui-sref="form.account" tabindex="11">
                 <i class="far fa-arrow-alt-circle-left pr-1"></i> {{'FORM.BUTTONS.PREVIOUS' | translate}}
             </button>
-            <button type="submit" class="btn btn-secondary text-white mr-2 px-3 px-md-5" tabindex="12" ng-disabled="!vm.isCodeValid">
+            <button type="submit" class="btn btn-color text-white mr-2 px-3 px-md-5" tabindex="12" ng-disabled="!vm.isCodeValid">
                 {{'FORM.BUTTONS.NEXT' | translate}} <i class="far fa-arrow-alt-circle-right pl-1"></i>
             </button>
         </div>

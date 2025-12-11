@@ -7,7 +7,7 @@
      Created by   :   Jinal Vyas
      Date         :   June 2019
  **/
-import logoEn from '../../../../images/logos/navbar-logo-en.png';
+import logoEn from '../../../../images/logos/mycarex-logo.png';
 import logoFr from '../../../../images/logos/navbar-logo-fr.png';
 
 (function () {
