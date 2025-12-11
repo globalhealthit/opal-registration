@@ -8,8 +8,7 @@
      Created by   :   Jinal Vyas
      Date         :   June 2019
  **/
-import logoEn from '../../../../../images/logos/navbar-logo-en.png';
-import logoFr from '../../../../../images/logos/navbar-logo-fr.png';
+import logoEn from '../../../../../images/logos/mycarex-logo.png';
 
 (function () {
     'use strict';
@@ -27,7 +26,6 @@ import logoFr from '../../../../../images/logos/navbar-logo-fr.png';
         vm.formData = {};
 
         vm.logoEn = logoEn;
-        vm.logoFr = logoFr;
 
         // Call function on page load to fetch the data.
         vm.$onInit = activate;

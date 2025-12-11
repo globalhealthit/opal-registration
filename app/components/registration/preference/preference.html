@@ -59,6 +59,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
         </div>
     </div>
 
+    <!--Preferred language dropdown-->
     <div class="form-row mb-2 mt-3">
         <div class="form-group col-md-6 col-sm-12">
             <label for="language" class="font-weight-bold text-muted pr-1">{{'PREFERENCE.FIELDNAMES.LANGUAGE' | translate}}</label>
@@ -68,11 +69,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                            'is-valid':(vm.formData.languageFormat.status == 'valid')}"
                     tabindex="3" required>
 
-                <option value="">{{'PREFERENCE.FIELDNAMES.LANGUAGEDROPDOWNDEAFULT' | translate}}</option>
-                <option ng-repeat="language in vm.formData.languageList[vm.formData.selectedLanguage]" value="{{language.code}}">{{language.name}}</option>
+                <option value="en">English</option>
+                <!-- <option ng-repeat="language in vm.formData.languageList[vm.formData.selectedLanguage]" value="{{language.code}}">{{language.name}}</option> -->
             </select>
 
-            <!--Display error if user didn't select language-->
+            <!-- Display error if user didn't select language -->
             <div ng-show="vm.formData.languageFormat.status == 'invalid'">
                 <small class="text-danger font-weight-bold">{{vm.formData.languageFormat.message}}</small>
             </div>
@@ -91,10 +92,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <!--Navigation button-->
     <div class="form-row">
         <div class="form-group col-md-12 col-xs-12 d-flex justify-content-center mt-2 mt-md-4">
-            <button type="reset" class="btn btn-secondary text-white mr-2 px-3 px-md-5" ui-sref="form.account" tabindex="5">
+            <button type="reset" class="btn btn-color text-white mr-2 px-3 px-md-5" ui-sref="form.account" tabindex="5">
                 <i class="far fa-arrow-alt-circle-left pr-1"></i>  {{'FORM.BUTTONS.PREVIOUS' | translate}}
             </button>
-            <button type="submit" class="btn btn-secondary text-white mr-2 px-3 px-md-5" tabindex="6">
+            <button type="submit" class="btn btn-color text-white mr-2 px-3 px-md-5" tabindex="6">
                 {{'FORM.BUTTONS.NEXT' | translate}} <i class="far fa-arrow-alt-circle-right pl-1"></i>
             </button>
         </div>

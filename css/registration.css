@@ -6,14 +6,14 @@
 
 /*Navigation styles*/
 
-/*.header-menu {
+.header-menu {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
-}*/
+}
 
 .header-logo {
-    height: 75px;
-    margin-top: -28px;
+    height: 50px;
+    margin-top: -10px;
 }
 
 .header-brand {
@@ -30,9 +30,9 @@ section.page-title h1 {
 
 /* Search Patient Page Style */
 .bg-opal {
-    background-color: #6EAC42;
-    border-color: #6EAC42;
-    color: #6EAC42;
+    background-color: #24488E ;
+    border-color: #24488E ;
+    color: #24488E ;
 }
 
 /* Customize Bootstrap tooltips */
@@ -181,8 +181,8 @@ section.page-title h1 {
 }
 
 a.active .tab {
-    background: #6EAC42;
-    box-shadow: 0 16px 26px -10px #28a745c9, 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px #28a7453d;
+    background: #24488E ;
+    box-shadow: 0 16px 26px -10px #8584e5c9, 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px #286aa73d;
 }
 
 
@@ -200,6 +200,17 @@ a.active .tab {
 .list-style, .tab {
     display: flex;
     padding: 0;
+}
+
+.btn-color{
+    background-color: #24488E;
+    border-color: #24488E ;
+    color: #fff;
+}
+.btn-color:hover{
+    background-color: #092966 ;
+    border-color: #092966 ;
+    color: #fff;
 }
 
 @media (max-width: 575.98px) {
@@ -250,7 +261,7 @@ li, .mx-3 {
 
 /*Opal preference page level of access layout*/
 .heighlight {
-    background: #6EAC42;
+    background: #24488E ;
     color: #494040 !important;
     box-shadow: 0 16px 26px -10px #28a745c9, 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px #28a7453d;
 }

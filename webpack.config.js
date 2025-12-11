@@ -102,7 +102,7 @@ const config = (env, argv) => {
             new HtmlWebpackPlugin({
                 template: './index.html',
             }),
-            new FaviconsWebpackPlugin('./images/favicons/favicon-source.png'),
+            new FaviconsWebpackPlugin('./images/favicons/mycarex-favicon.png'),
             new CopyPlugin({
                 patterns: [
                     // File copied for web deployment
